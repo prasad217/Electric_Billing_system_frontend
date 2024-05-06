@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500vh;
+    background-color: #f0f0f0; /* Light gray background */
+    padding-top: 20px; /* Add padding to separate the heading from the bill container */
+  }
+  
+  .bill-container {
+    background-color: #3498db; /* Blue background */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* White text */
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate from the heading */
+  }
+  
+  .bill-container h3 {
+    margin-bottom: 20px;
+  }
+  
+  .bill-container p {
+    margin-bottom: 10px;
+  }
+  
+  .bill-container button {
+    background-color: #4caf50; /* Green button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bill-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
